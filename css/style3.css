@@ -1,0 +1,1209 @@
+/*Спецификация*/
+
+body {
+	font-family: "Poppins";
+	padding: 0;
+	margin: 0;
+
+}
+
+.container {
+	height: 100%;
+	position: relative;
+}
+
+p {
+	font-size: 15px;
+}
+
+/*Навигационное меню*/
+
+.navbar { /*Размер и цвет меню*/
+	height: 75px;
+	background-color: white;	
+}
+
+.navbar ul, li { /*Элементы списка в блоки*/
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.menu__item { /*Элементы меню навигации*/
+	margin: 0 8px;
+	text-align: center;	
+	box-shadow: 0 0 3px rgba(0,0,0,0);
+}
+
+.menu__item a { /*Текст элементов меню навигации*/
+	text-decoration: none;
+	font-size: 14px;
+	color: rgb(39, 39, 39);
+	font-weight: bold;	
+}
+
+.menu__item:hover { /*Изменение кнопки при наведении курсора*/
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/*Первая секция*/
+
+.header-fluid { /*Параметры первой секции*/
+	background-color: #3f4049;
+	height: 775px;
+}
+
+.header-fluid .content { /*Содержисое первой секции*/
+	padding-top: 160px;
+}
+
+h1 { /*Заголовок*/
+	font-size: 60px;
+	font-family: "LibreBaskerville";
+	color: rgb(255, 255, 255);	
+	text-align: center;
+}
+
+
+.header-fluid .button { /*Кнопка Our Works*/
+	background-color: rgb(252, 95, 69);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-radius: 100px;
+    display: block;    
+    width: 180px;
+    padding: 15px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-transform: uppercase;
+    border: 3px solid rgb(252, 95, 69);
+    text-decoration: none;    
+}
+
+.header-fluid .button:hover { /*Наведение мышки на кнопку Our Works*/
+	background-color: #3f4049;
+    color: rgb(252, 95, 69);
+    text-decoration: none;  
+}
+
+.header-fluid .menu_1 { /*Контейнер с тремя элементами под кнопкой*/
+	padding-top: 80px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-fluid .menu_1 p{ /*Текст под иконками*/
+	padding-top: 35px;
+	font-size: 18px;
+}
+
+.Price p { 
+	color: rgb(56, 198, 149);
+}
+
+.Time p {
+	color: rgb(178, 124, 245);
+}
+
+.Guranteed p {
+	color: rgb(254, 185, 96);
+}
+
+/*Вторая секция*/
+
+.second { /*Параметры второй секции*/
+	height: 1000px;
+	background-color: rgb(255, 255, 255);	
+}
+
+.second img { /*Картинка 555х700*/
+	width: 550px;
+	padding-top: 150px;	
+	position: absolute;	
+}
+
+.About_us {	/*Блок About Us*/
+	margin: 0;
+	padding-left: 15px;
+	width: 660px;	
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+	position: relative;
+	top: 225px;
+	left: 445px;
+	height: auto;	
+}
+
+.number_1 {	/*01*/
+	font-size: 250px;  
+	color: rgba(224, 224, 224, 0.302);
+	text-transform: uppercase;	
+	text-align: left; 
+	font-weight: bold;	
+	line-height: 0.9;
+	position: absolute;
+}
+
+.About_us_content { /*Контейнер внутри блока About Us*/
+	padding: 90px 80px 80px 80px;	
+	position: relative;
+	height: 100%;		
+}
+
+.About_us_content h2 { /*Заголовок блока About Us*/
+	font-size: 50px;
+	font-family: "LibreBaskerville";
+	color: rgb(49, 49, 49);
+	font-weight: bold;
+	line-height: 1.6;
+	text-align: left;
+}
+
+.About_us_content p { /*Текст блока About Us*/		
+	color: rgb(97, 97, 97);
+	line-height: 1.8;
+	text-align: left;
+}
+
+.bottom_color { /*Четырёхцветное дно блока*/	
+	width: 97.7%;	
+}
+
+.bottom_color .red {
+	width: 25%;	
+	border-bottom: 5px solid rgb(252, 95, 69);
+	
+}
+
+.bottom_color .green {
+	width: 25%;	
+	border-bottom: 5px solid rgb(56, 198, 149);
+	
+}
+
+.bottom_color .violet {
+	width: 25%;
+	border-bottom: 5px solid rgb(178, 124, 245);
+	
+}
+
+.bottom_color .orange{
+	width: 25%;
+	border-bottom: 5px solid rgb(254, 185, 96);
+	
+}
+
+/*Третья секция*/
+
+.third { /*Параметры третьей секции*/
+	height: 825px;
+	background-color: rgb(247, 247, 247);
+}
+
+.hat { /*Шапка второй секции*/
+	text-align: center;	
+}
+
+.number_2 { /*Номер страницы*/
+	font-size: 250px;  
+	color: rgba(224, 224, 224, 0.302);
+	text-transform: uppercase;		
+	font-weight: bold;	
+	line-height: 0.8;
+}
+
+.hat_content { /*Контейнер с заголовком и текстом*/
+	position: relative;
+	bottom: 90px;
+}
+
+.hat_content h2 { /*Заголовок шапки*/
+	font-size: 50px;
+	font-family: "LibreBaskerville";
+	color: rgb(49, 49, 49);
+	font-weight: bold;
+	line-height: 1.6;
+}
+
+.hat_content p { /*Текст шапки*/
+	font-size: 18px;  
+	color: rgb(97, 97, 97);
+	line-height: 2;
+}
+
+.third .outer { /*Отступы между блоками*/
+	margin-bottom: 25px;
+}
+
+.third .red, .third .green, 
+.third .violet, .third .orange { /*Параметры блоков*/
+	background-color: rgb(255, 255, 255);
+	border-bottom: 3px solid rgb(252, 95, 69);
+	padding: 65px 30px;
+	text-align: center;
+	height: 350px;	
+}
+
+.third .green {	/*нижние границы*/	
+	border-bottom: 3px solid rgb(56, 198, 149);		
+}
+
+.third .violet{ /*нижние границы*/	
+	border-bottom: 3px solid rgb(178, 124, 245);	
+}
+
+.third .orange { /*нижние границы*/		
+	border-bottom: 3px solid rgb(254, 185, 96);	
+}
+
+.third .outer h4 { /*Параметры заголовков блоков*/
+	font-size: 20px;
+	color: rgb(49, 49, 49);
+	font-weight: bold;
+	padding: 30px 0;
+}
+
+/*Четвёртая секция*/
+
+.fourth { /*Параметры четвёртой секции*/
+	height: auto;
+	background-color: #3f4049;
+	padding: 100px 0;
+}
+
+.fourth_content { /*Центрированние содержимого*/
+	text-align: center;
+	
+}
+
+.fourth video {	/*Размер плеера*/
+	width: 100%;
+}
+
+.fourth h3{ /*Параметры заголовка*/
+	font-size: 30px;   
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+.fourth p{ /*Параметры текста*/ 
+    color: rgb(255, 255, 255);
+    padding-top: 40px;
+}
+
+/*Пятая секция*/
+
+.fifth { /*Параметры пятой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(255, 255, 255);
+}
+
+.fifth img { /*Горизонтальные отступы между картинками*/
+	margin-bottom: 25px;
+}
+
+.fifth img:hover  {
+ 	-webkit-transform: scale(0.7);
+	-ms-transform: scale(0.7);
+	transform: scale(0.7);
+}
+
+/*Шестая секция*/
+
+.sixth { /*Параметры шестой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(247, 247, 247);
+}
+
+.sixth .outer { /*Отступы от блоков*/
+	padding-bottom: 25px;
+	margin-bottom: 25px;
+}
+
+.sixth .red, .sixth .green,
+.sixth .violet,.sixth .orange { /*Параметры блоков*/
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom: 3px solid rgb(252, 95, 69);
+}
+
+.sixth .outer img { /*Размер картинок*/
+	width: 100%;
+}
+
+.sixth .outer h4 { /*Параметры заголовков блоков*/
+	font-size: 18px;
+	line-height: 2;
+	font-weight: bold;
+}
+
+.sixth .green { /*нижние границы*/
+	border-bottom: 3px solid rgb(56, 198, 149);
+}
+
+.sixth .violet{ /*нижние границы*/	
+	border-bottom: 3px solid rgb(178, 124, 245);	
+}
+
+.sixth .orange { /*нижние границы*/		
+	border-bottom: 3px solid rgb(254, 185, 96);	
+}
+
+.sixth .red h4{ /*Цвет заголовка в блоке*/
+	color: rgb(252, 95, 69);
+}
+
+.sixth .green h4{ /*Цвет заголовка в блоке*/
+	color: rgb(56, 198, 149);
+}
+
+.sixth .violet h4{ /*Цвет заголовка в блоке*/
+	color: rgb(178, 124, 245);
+}
+.sixth .orange h4{ /*Цвет заголовка в блоке*/
+	color: rgb(254, 185, 96);	
+}
+
+.About { /*Нижний блок*/
+	width: 100%;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	padding: 75px 100px;
+}
+
+.About h4 { /*Заголовок нижнего блока*/
+	font-size: 20px;
+	color: rgb(39, 39, 39);
+	line-height: 1;
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+
+.About p {	/*Текст нижнего блока*/
+	color: rgb(97, 97, 97);
+	line-height: 1.8;
+}
+
+.About .contacts { /*Контейнер со ссылками на соцсети*/
+	padding: 100px 0 0 0;	
+}
+
+.About .contacts h5 { /*Названия соцсетей*/
+	font-size: 15px;
+	color: rgb(97, 97, 97);
+	line-height: 1.2;
+	margin: 5px 0 0 10px;
+}
+
+.logo_contacts_container {	/*Контейнер с оранжевым значком*/
+	padding: 40px 0 0 70px;
+	margin-bottom: 30px;
+}
+
+.contacts_references { /*Позиционирование соцсетей*/	
+	padding-left: 70px;
+}
+
+/*Седьмая секция*/
+
+.seventh {
+	height: auto;
+	background: url(img/img6.0.png) no-repeat center top/cover;
+	text-align: center;
+	padding: 80px 0 150px 0;
+}
+
+.seventh h3 { /*Параметры заголовков седьмой секции*/
+	color: rgb(254, 254, 254);
+	line-height: 3;
+	font-size: 20px;
+}
+
+.seventh p { /*Параметры текста*/
+	color: rgb(254, 254, 254);	
+}
+
+.seventh .seventh_logo { /*Отступы по вертикали у картинок*/
+	padding-top: 70px;	
+}
+
+/*Восьмая секция*/
+
+.eight { /*Параметры восьмой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.eight .big_img { /*Отступ между шапкой и контентом*/
+	padding-top: 40px;
+	position: absolute;
+}
+
+.move_bloks { /*Сдвиг вверх всплывающих блоков*/
+	position: relative;
+	
+	z-index: 2;
+}
+
+.move_bloks_1, .move_bloks_2  {	/*Два контейнера с парами блоков*/
+	height: 600px;
+}
+
+.move_bloks .red, .move_bloks .green,
+.move_bloks .violet, .move_bloks .orange { /*Параметры всплывающих блоков*/
+	width: 460px;
+	height: 300px;
+	text-align: left;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+	padding: 40px 60px 70px 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+.move_bloks .green, .move_bloks .orange { /*Позиционирование второго и четвёртого блоков*/
+	float: right;
+}
+
+.number_3 { /*Параметры номеров блоков*/
+	font-size: 50px;
+	font-family: "LibreBaskerville";
+	color: rgb(224, 224, 224);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.move_bloks h4 { /*Параметры заголовков блоков*/
+	padding: 30px 0 20px 0;
+	font-size: 20px;
+	color: rgb(39, 39, 39);
+	font-weight: bold;
+}
+
+.move_bloks p {	/*Параметры текста в блоках*/
+	line-height: 1.8;
+}
+
+.move_bloks .red { /*Цвет нижней границы*/
+	border-bottom: 3px solid rgb(252, 95, 69); 
+}
+
+.move_bloks .green { /*Цвет нижней границы*/
+	border-bottom: 3px solid rgb(56, 198, 149); 
+}
+
+.move_bloks .violet { /*Цвет нижней границы*/
+	border-bottom: 3px solid rgb(178, 124, 245); 
+}
+
+.move_bloks .orange { /*Цвет нижней границы*/
+	border-bottom: 3px solid rgb(254, 185, 96); 
+}
+
+/*Девятая секция*/
+
+.ninth { /*Параметры девятой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(247, 247, 247);
+}
+
+.ninth .green_content, .ninth .red_content, 
+.ninth .violet_content { /*Параметры блоков*/
+	text-align: center;
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+	padding: 40px 0;	
+}
+
+.ninth .green_content { /*Верхняя граница*/
+	border-top: 3px solid rgb(56, 198, 149);
+}
+
+.ninth .red_content { /*Верхняя граница*/
+	border-top: 3px solid rgb(252, 95, 69);
+}
+
+.ninth .violet_content { /*Верхняя граница*/
+	border-top: 3px solid rgb(178, 124, 245);
+}
+
+.ninth .row h5 { /*Заголовки блоков*/
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(49, 49, 49);
+	padding-bottom: 20px;	
+}
+
+.ninth .row p { /*Текст блоков*/
+	color: rgb(39, 39, 39);
+	line-height: 3;
+	padding: 20px 0;
+}
+
+.ninth a { /*Параметры кнопок*/
+	width: 80%;	
+    color: rgb(255, 255, 255);
+    border-radius: 100px;    
+    text-transform: uppercase; 
+    padding: 10px 30px;
+    text-decoration: none;    
+}
+
+.ninth .green a { /*Цвет первой кнопки*/
+	border: 3px solid rgb(56, 198, 149);
+	background-color: rgb(56, 198, 149);
+}
+
+.ninth .green a:hover { /*Изменение кнопки при наведении курсора*/	
+    background-color: rgb(255, 255, 255);
+    color: rgb(56, 198, 149);
+}
+
+.ninth .red a { /*Цвет второй кнопки*/
+	border: 3px solid rgb(252, 95, 69);
+	background-color: rgb(252, 95, 69);
+}
+
+.ninth .red a:hover, 
+.thirteenth .button:hover { /*Изменение кнопки при наведении курсора*/		
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 95, 69);
+}
+
+.ninth .violet a { /*Цвет третьей кнопки*/
+	border: 3px solid rgb(178, 124, 245);
+	background-color: rgb(178, 124, 245);
+}
+
+.ninth .violet a:hover { /*Изменение кнопки при наведении курсора*/
+    background-color: rgb(255, 255, 255);
+    color: rgb(178, 124, 245);
+}
+
+/*Десятая секция*/
+
+.tenth { /*Параметры десятой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: #3f4049;
+}
+
+.tenth .hat_content h2, 
+.tenth .hat_content p { /*Цвет текста в шапке*/
+	color: rgb(255, 255, 255);
+}
+
+.tenth_img { /*Убираем внутренние отступы блока с картинкой*/
+	padding: 0;	
+}
+
+.tenth_img img{ /*Размер картинки*/
+	width: 100%;	
+}
+
+.tenth_block { /* Верикальный отступ внешнего блока с текстом*/
+	margin: 0;
+	padding: 55px 0 0 0;
+}
+
+.tenth_block_content { /*Параметры блока с текстом*/
+	height: auto;	
+	background-color: rgb(255, 255, 255);
+	border-bottom: 3px solid rgb(252, 95, 69);	
+}
+
+.tenth .quotes { /*Параметры кавычек*/
+	font-size: 300px;
+	color: rgba(224, 224, 224, 0.302);
+	font-family: "LibreBaskerville";
+	position: absolute;
+	line-height: 0.8;
+	z-index: 0;
+}
+
+.tenth_block_content .text { /*Текст блока*/
+	color: rgb(97, 97, 97);
+	line-height: 1.8;	
+	padding: 40px 80px 0 50px;
+	position: relative;
+	z-index: 2;
+}
+
+.tenth_block_content .sign { /*Подпись*/
+	font-size: 40px;
+	font-family: "Sacramento";
+	color: rgb(39, 39, 39);
+	padding-left: 50px;
+	margin: 0;
+}
+
+.tenth_block_content .name { /*Фамилия и имя*/
+	font-size: 18px;
+	color: rgb(39, 39, 39);
+	padding-left: 50px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.tenth_block_content .founder { /*Founder, TingTong*/
+	font-size: 13px;
+	color: rgb(252, 95, 69);
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+.tenth_block img { /*Картинка под блоком с текстом*/
+	padding-top: 10px;
+	float: right;
+}
+
+/*Одиннадцатая секция*/
+
+.eleventh { /*Параметры одиннадцатой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(255, 255, 255);
+}
+
+.eleventh .block { /*Отступы по вериткали у блоков*/
+	padding: 0 40px 40px 0;
+	height: auto;			
+}
+
+.eleventh .block_img { /*Сдвиг картинок*/
+	padding-left: 12px;
+}
+
+.eleventh .block_head h5 { /*Параметры заголовков*/
+	padding-left: 20px;
+	font-size: 18px;
+	color: rgb(39, 39, 39);
+	font-weight: bold;
+}
+
+ .eleventh .block p { /*Параметры текста*/
+ 	color: rgb(97, 97, 97);
+ 	line-height: 1.8;
+ 	padding-top: 30px;
+}
+
+.eleventh_footer { /*Сдвиг по вертикали надписи с кнопкой*/
+	padding-top: 150px;
+}
+
+.eleventh_footer p { /*Параметры надписи внизу секции*/
+	float: right;
+	font-size: 25px;
+	color: rgb(39, 39, 39);
+	margin-bottom: 30px;
+}
+
+.eleventh_footer .start_buton { /*Сдвиг кнопки*/
+	padding-top: 5px;
+}
+
+.eleventh_footer a { /*Параметры кнопки*/
+	color: rgb(255, 255, 255);
+    border-radius: 100px;    
+    text-transform: uppercase; 
+    padding: 10px 30px;
+    text-decoration: none;
+    border: 3px solid rgb(252, 95, 69);
+	background-color: rgb(252, 95, 69);	
+	text-align: center;
+}
+
+.eleventh_footer a:hover { /*Изменение кнопки при наведении курсора*/		
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 95, 69);
+}
+
+/*Двенадцатая секция*/
+
+.twelfth { /*Параметры двенадцатой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: rgb(247, 247, 247);
+}
+
+.twelfth_content_left .row { /*Отступ между правым и левым контейнером*/
+	padding-right: 10px;
+}
+
+.twelfth_content_right .row { /*Отступ между правым и левым контейнером*/
+	padding-left: 10px;
+}
+
+.twelfth_img { /*Параметры контейнера с картинкой*/
+	padding: 0;
+	margin: 0;
+}
+.twelfth_img img { /*Параметры картинки*/
+	width: 100%;
+}
+
+.twelfth .red { /*Параметры красного блока*/
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	padding: 0 60px 47px 50px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid rgb(252, 95, 69);	
+}
+
+.twelfth .red .row { /*Сдвиг вверх Damian и December*/
+	padding: 0;
+	position: relative;
+	bottom: 70px;
+}
+
+.twelfth .red .Damian { /*Параметры Damian*/
+	text-transform: uppercase;
+	color: rgb(252, 95, 69);
+}
+
+.twelfth .red .December { /*Параметры December*/
+	font-size: 13px;
+	color: rgba(255, 255, 255, 0.702);	l
+}
+
+.twelfth .red .Facebook { /*Параметры заголовка в красном блоке*/
+	font-size: 20px;
+	color: rgb(39, 39, 39);
+	line-height: 1.75;
+	font-weight: bold;
+}
+
+.twelfth .Traction { /*Параметры текста в красном блоке*/
+	color: rgb(97, 97, 97);
+	line-height: 1.8;
+}
+
+.twelfth .green, 
+.twelfth .violet, 
+.twelfth .orange { /*Параметры трёх правых блоков*/
+	height: auto;
+	background-color: rgb(255, 255, 255);
+	padding: 0 60px 25px 50px;
+	margin-bottom: 20px;
+}
+
+.twelfth .green { /*Нижняя граница зелёного блока*/
+	border-bottom: 3px solid rgb(56, 198, 149);
+}
+
+.twelfth .violet { /*Нижняя граница фиолетового блока*/
+	border-bottom: 3px solid rgb(178, 124, 245);
+}
+
+.twelfth .orange { /*Нижняя граница оранжевого блока*/
+	border-bottom: 3px solid rgb(254, 185, 96);
+}
+
+.twelfth_content_right .row .row { /*Сдвиг вниз Damian и December в трёх правых блоках*/
+	padding: 20px 0 0 0;
+}
+
+.twelfth .green .Damian { /*Параметры зелёного Damian*/
+	text-transform: uppercase;
+	color: rgb(56, 198, 149);
+}
+
+.twelfth .violet .Damian { /*Параметры фиолетового Damian*/
+	text-transform: uppercase;
+	color: rgb(178, 124, 245);
+}
+
+.twelfth .orange .Damian { /*Параметры оранжевого Damian*/
+	text-transform: uppercase;
+	color: rgb(254, 185, 96);
+}
+
+.twelfth_content_right .December { /*Параметры December в трёх правых блоках*/
+	font-size: 13px;		
+}
+
+.twelfth_content_right .Google{ /*Параметры заголовков трёх правых блоков*/
+	font-size: 18px;
+	color: rgb(39, 39, 39);
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+/*Тринадцатая секция*/
+
+.thirteenth { /*Параметры тринадцатой секции*/
+	height: auto;
+	padding: 150px 0;
+	background-color: rgb(255, 255, 255);
+}
+
+.thirteenth p { /*Заголовок*/
+	text-align: center;
+	font-size: 30px;
+	color: rgb(39, 39, 39);
+	line-height: 3;
+	padding-bottom: 20px;
+}
+
+.thirteenth form { /*Контейнер с полем ввода и кнопкой*/
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+
+.thirteenth .field { /*Поле ввода*/
+	width: 300px;
+	height: 50px;
+	color: rgb(97, 97, 97);
+	font-size: 16px;
+	border-radius: 100px 0 0 100px; 
+	border: 2px solid rgb(239, 239, 239);
+	background-color: rgb(247, 247, 247);
+	padding-left: 30px;	
+}
+
+.thirteenth .button { /*Кнопка отправки формы*/
+	background-color: rgb(252, 95, 69);
+	border: 3px solid rgb(252, 95, 69);
+	border-radius: 0 100px 100px 0;
+	text-align: center;	
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	width: 160px;
+	padding: 10.5px 10px;
+	position: relative;
+	right: 5px;
+}
+
+/*Четырнадцатая секция*/
+	
+.fourteenth { /*Параметры четырнадцатой секции*/
+	height: auto;
+	padding-bottom: 150px;
+	background-color: #cccccc;
+}
+
+.fourteenth .form .row { /*центрированние элементов*/
+	text-align: center;
+}
+
+.fourteenth .field, .fourteenth textarea { /*Параметры полей*/
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: left;
+	border-style: solid;
+    border-width: 1px;
+    border-color: rgb(239, 239, 239);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255)
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+    line-height: 3;
+}
+
+.fourteenth textarea { /*Параметры многострочного поля*/
+	height: 200px;
+}
+
+.fourteenth .button { /*Параметры кнопки*/
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 3;
+	text-align: center;
+	background-color: rgb(252, 95, 69);
+	border: 3px solid rgb(252, 95, 69);
+    border-radius: 100px;
+    width: 30%; 
+}
+
+.fourteenth .button:hover { /*Изменение кнопки при наведении курсора*/		
+    background-color: #cccccc;
+    color: rgb(252, 95, 69);
+}
+
+.fourteenth .footer { /*Параметры нижнего блока*/
+	margin-top: 120px;
+	background-color: #3f4049;
+	padding: 50px 50px 40px 50px;
+}
+
+.fourteenth .footer .footer_logo { /*Логотип нижнего блока*/
+	margin-top: 40px;
+}
+
+.fourteenth .footer .green h5 {	/*Зелёный заголовок*/
+	color: rgb(56, 198, 149);
+}
+
+.fourteenth .footer .violet h5 { /*Фиолетовый заголовок*/
+	color: rgb(178, 124, 245);
+}
+
+.fourteenth .footer .orange h5 { /*Оранжевый заголовок*/
+	color: rgb(254, 185, 96);
+}
+
+.fourteenth .footer .green p,
+.fourteenth .footer .violet p { /*Текст нижнего блока*/
+	padding-top: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 2;
+}
+
+.fourteenth .footer .orange .row { /*Сдвиг картинок по вертикали*/
+	padding-top: 12px;
+}
+
+
+
+
+
+
+/*Медиа-запросы*/
+
+@media screen and (max-width: 1200px) {
+
+.second { 
+	height: auto;
+	padding-bottom: 150px;
+}
+
+.second img {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.About_us {
+	left: 0;
+	top: 50px;
+	margin: 0 auto;
+	height: auto;
+}
+
+.third {
+	height: auto;
+	padding-bottom: 150px;
+}
+
+.third .red, .third .green, 
+.third .violet, .third .orange {
+	height: 400px;
+}
+
+.third .orange h4 {
+	padding: 20px 0;
+}
+
+.tenth_block {
+	padding-top: 10px;
+} 
+
+.twelfth .red {
+	padding-bottom: 178px;
+}
+
+.twelfth .green, 
+.twelfth .violet,
+.twelfth .orange {
+	padding-bottom: 0;
+}
+
+.fourteenth .footer {	
+	padding: 50px 20px 40px 20px;	
+}
+
+}
+
+@media screen and (max-width: 992px) {
+
+.navbar { /*Увеличение высоты навигационного меню*/
+	height: 100px;
+}
+
+.navbar img { /*Лого по центру*/
+	display: block;
+	margin: 0 auto;
+}
+
+.navbar .menu { /*Отступ между лого и навигационным меню*/
+	padding-top: 15px;	
+}
+
+.header-fluid .button { /*Изменение размеров кнопки*/
+	width: 240px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.About .contacts {
+	padding: 30px 0 0 100px;	
+}
+
+.eight .big_img {
+	position: relative;
+}
+
+.move_bloks {	
+	padding-top: 30px;	
+}
+
+.move_bloks_1, .move_bloks_2 {
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.move_bloks .red, .move_bloks .green,
+.move_bloks .violet, .move_bloks .orange {
+	float: none;	
+	margin-top: 20px;
+	width: 100%;
+	height: auto;	
+}
+
+.tenth_block {
+	padding-top: 30px;
+} 
+
+.tenth_img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.eleventh_footer p {
+	float: none;
+	text-align: center;
+}
+
+.eleventh_footer a {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+
+.twelfth_content_left .row, 
+.twelfth_content_right .row {
+	padding: 0;
+}
+
+.twelfth .red, 
+.twelfth .green, 
+.twelfth .violet,
+.twelfth .orange {
+	padding: 0 20px 0 20px;
+}
+
+.fourteenth .footer {
+	text-align: center;
+}
+
+.fourteenth .footer .footer_logo {
+	margin-top: 0;
+}
+
+.fourteenth .footer .green,
+.fourteenth .footer .violet,
+.fourteenth .footer .orange {
+	margin-top: 50px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+
+.navbar { /*Увеличение высоты навигационного меню*/
+	height: 280px;
+}
+
+.menu { /*Элементы меню в одну колонку*/
+	flex-direction: column;
+}
+
+.header-fluid { /*Высота первой секции*/
+	height: auto;
+	padding-bottom: 100px;
+}
+
+.second img {
+	width: 90%;
+}
+
+.About_us {
+	width: 95%;	
+}
+
+.About_us_content {
+	width: 95%;	
+	padding: 30px 0 20px 20px;
+}
+
+.bottom_color { 	
+	width: 97%;	
+}
+
+.About .contacts {
+	padding: 30px 0 0 0;	
+}
+
+.eight img {
+	width: 90%;
+}
+
+.tenth_block_content .text {
+	padding: 30px 20px 20px 20px;
+}
+
+.tenth_block_content .sign, 
+.tenth_block_content .name, 
+.tenth_block_content .founder {
+	padding: 0;
+	text-align: center;
+}
+
+.tenth_block img {
+	float: none;
+	display: block;
+	margin: 0 auto;
+}
+
+.eleventh .block {
+	padding: 0 0 30px 30px;
+	margin: 0;
+}
+
+.eleventh .block .row {
+	width: 80%;
+}
+
+.thirteenth .field {
+	width: 70%;	
+	border-radius: 100px;
+	margin-bottom: 40px;	
+}
+
+.thirteenth .button {	
+	border-radius: 100px;	
+	width: 50%;
+	padding: 10.5px 10px;
+	position: static;
+	
+}
+
+.fourteenth .button {
+	width: 70%;
+}
+
+}
