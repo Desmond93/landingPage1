@@ -8,5 +8,3 @@ The following technologies were used:
 * Bootstrap
 
 [Demo](https://desmond93.github.io/landingPageTraining1/)
-
-[Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
