@@ -9,4 +9,4 @@ The following technologies were used:
 
 [Demo] (https://desmond93.github.io/landingPageTraining1/)
 
-[My Awesome Wiki](../../wiki)
+[Sites Using React](https://github.com/facebook/react/wiki/Sites-Using-React)
