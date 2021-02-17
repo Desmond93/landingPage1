@@ -7,4 +7,4 @@ The following technologies were used:
 * CSS
 * Bootstrap
 
-[ Demo ] (https://desmond93.github.io/landingPageTraining1/)
+[Demo] (https://desmond93.github.io/landingPageTraining1/)
