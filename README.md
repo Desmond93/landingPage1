@@ -9,4 +9,4 @@ The following technologies were used:
 
 [Demo] (https://desmond93.github.io/landingPageTraining1/)
 
-[ссылка на Google!] (Http://google.com)
+[My Awesome Wiki](../../wiki)
