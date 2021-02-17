@@ -8,3 +8,5 @@ The following technologies were used:
 * Bootstrap
 
 [Demo] (https://desmond93.github.io/landingPageTraining1/)
+
+[ссылка на Google!] (Http://google.com)
